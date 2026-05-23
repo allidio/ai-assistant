@@ -1,0 +1,16 @@
+{
+  "name": "ai-assistant",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./tools": "./src/tools.js",
+    "./pointer": "./src/PointerOverlay.jsx"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  }
+}
